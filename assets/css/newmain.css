@@ -79,7 +79,7 @@ padding:0;
     font-size: 5em;
     letter-spacing: 15px;
     color: #484848;
-    animation: txtanim 1s infinite linear;
+    animation: txtanim 1s 10 linear;
 }
 
 

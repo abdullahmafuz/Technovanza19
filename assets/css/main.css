@@ -1741,8 +1741,8 @@ body {
   background-color: #0f33ff;
 }
 
-.outer-nav > li.is-active::before {
-  opacity: 1;
+.outer-nav > li.is-active {
+  color: #0f33ff;
 }
 
 @media (max-width: 767px) {
