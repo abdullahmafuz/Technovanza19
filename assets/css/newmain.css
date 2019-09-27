@@ -1,0 +1,249 @@
+html{
+    margin:0;
+    padding:0;
+}
+
+.anim {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    animation: anima 5s ease-out ;
+    background-color: black;
+    z-index: 999;
+   
+}
+
+@keyframes anima {
+    0%{
+        
+        visibility: visible;
+       font-size: 60%;
+    }
+    25%{
+        font-size: 80%;
+    }
+    50%{
+        font-size: 100%;
+    }
+    75%{
+        font-size: 120%;
+    }
+    100%{
+        
+        font-size: 140%;
+      
+    }
+}
+
+
+
+.anim .up{
+position: absolute;
+top: 47%;
+left: 50%;
+transform: translate(-50%,-50%);
+margin:0;
+padding:0;
+    list-style: none;
+
+    display: flex;
+
+
+}
+
+.anim .down{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+        list-style: none;
+    
+        display: flex;
+    
+    
+    }
+
+
+
+
+
+.anim ul li{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    letter-spacing: 15px;
+    color: #484848;
+    animation: txtanim 1s infinite linear;
+}
+
+
+
+@keyframes txtanim {
+
+    0%{
+        color: #484848;
+        text-shadow: none;
+    }
+    18%{
+        color: #484848;
+        text-shadow: none;
+    }
+    20%{
+        color: #00d9ff;
+        text-shadow: 0 0 7px #00d9ff , 0 0 20px #002fff;
+    }
+    30%{
+        color: #484848;
+        text-shadow: none;
+    }
+    35%{
+        color: #00d9ff;
+        text-shadow: 0 0 7px #00d9ff , 0 0 20px #002fff;
+    }
+    70%{
+        color: #484848;
+        text-shadow: none;
+    }
+    85%{
+        color: #00d9ff;
+        text-shadow: 0 0 7px #00d9ff , 0 0 20px #002fff;
+    }
+    90%{
+        color: #484848;
+        text-shadow: none;
+    }
+    100%{
+        color: #484848;
+        text-shadow: none;
+    }
+    
+
+
+
+}
+
+.anim ul li:nth-child(1){
+
+    animation-delay: .2s;
+}
+
+.anim ul li:nth-child(2){
+    
+    animation-delay: .4s;
+}
+
+.anim ul li:nth-child(3){
+    
+    animation-delay: .6s;
+}
+
+.anim ul li:nth-child(4){
+    
+    animation-delay: .8s;
+}
+
+.anim ul li:nth-child(5){
+    
+    animation-delay: 1s;
+}
+
+.anim ul li:nth-child(6){
+    
+    animation-delay: 1.2s;
+}
+.anim ul li:nth-child(7){
+    
+    animation-delay: 1.4s;
+}
+
+.anim ul li:nth-child(8){
+    
+    animation-delay: 1.6s;
+}
+
+.anim ul li:nth-child(9){
+    
+    animation-delay: 1.8s;
+}
+
+.anim ul li:nth-child(10){
+    
+    animation-delay: 2s;
+}
+
+.anim ul li:nth-child(11){
+
+    animation-delay: 2.2s;
+}
+
+.anim ul li:nth-child(12){
+    
+    animation-delay: 2.4s;
+}
+
+.anim ul li:nth-child(13){
+    
+    animation-delay: 2.6s;
+}
+
+.anim ul li:nth-child(14){
+    
+    animation-delay: 2.8s;
+}
+
+.anim ul li:nth-child(15){
+    
+    animation-delay: 3s;
+}
+
+.anim ul li:nth-child(16){
+    
+    animation-delay: 3.2s;
+}
+.anim ul li:nth-child(17){
+    
+    animation-delay: 3.4s;
+}
+
+.anim ul li:nth-child(18){
+    
+    animation-delay: 3.6s;
+}
+
+.anim ul li:nth-child(19){
+    
+    animation-delay: 3.8s;
+}
+
+.anim ul li:nth-child(20){
+    
+    animation-delay: 4.2s;
+}
+.anim ul li:nth-child(21){
+    
+    animation-delay: 4.4s;
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .anim ul li{
+
+        
+        font-size: 1.5em;
+        letter-spacing: 10px;
+        
+    }
+
+    .anim .up{
+        position: absolute;
+        top: 42%;
+
+    }
+}
