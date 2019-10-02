@@ -11,10 +11,18 @@ html{
     width: 100%;
     height: 100%;
     visibility: hidden;
-    animation: anima 5s ease-out ;
+    animation: anima 4s ease-out ;
     background-color: black;
     z-index: 999;
    
+}
+
+.up{
+    font-weight: bold;
+}
+.down{
+    
+    font-size: 0.8em;
 }
 
 @keyframes anima {
@@ -31,8 +39,13 @@ html{
     }
     75%{
         font-size: 120%;
+        
+    }
+    90%{
+        opacity: 1;
     }
     100%{
+        opacity: 0;
         
         font-size: 140%;
       
@@ -243,7 +256,27 @@ padding:0;
 
     .anim .up{
         position: absolute;
-        top: 42%;
+        top: 48%;
 
+    }
+
+  
+    .down{
+        
+        font-size: 0.8em;
+    }
+}
+
+
+.wlc-logo{
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+           transform: rotate(0deg);
+    }
+    to {
+          transform: rotate(360deg);
     }
 }
