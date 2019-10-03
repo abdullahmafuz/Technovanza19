@@ -269,6 +269,10 @@ padding:0;
 
 
 .wlc-logo{
+    top:-30%;
+    left: 43%;
+    width: 90%;
+    
     animation: rotation 10s infinite linear;
 }
 
@@ -278,5 +282,13 @@ padding:0;
     }
     to {
           transform: rotate(360deg);
+    }
+}
+
+@media(max-width:768px){
+    .wlc-logo{
+        top:-35%;
+        left: 50%;
+        width: 60%;
     }
 }
