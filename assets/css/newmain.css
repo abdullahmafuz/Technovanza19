@@ -268,12 +268,40 @@ padding:0;
 }
 
 
-.wlc-logo{
-    top:-30%;
-    left: 43%;
-    width: 90%;
+
+
+
+.wlc-logo2{
+
+  
+    top:22%;
+    left: 66.5%;
+   
+    z-index: 9998;
+    animation: rotation 7s infinite linear reverse;
     
+}
+
+.wlc-logo3{
+
+    top:9.1%;
+    left: 59.99%;
+    
+    z-index:9997;
+    
+    animation: rotationrev 15s infinite linear;
+   
+}
+
+.wlc-logo4{
+
+ 
+    top:0%;
+    left: 55%;
+    
+    z-index: 9996;
     animation: rotation 10s infinite linear;
+   
 }
 
 @keyframes rotation {
@@ -284,6 +312,19 @@ padding:0;
           transform: rotate(360deg);
     }
 }
+
+@keyframes rotationrev {
+    from {
+           transform: rotate(360deg);
+    }
+    to {
+          transform: rotate(0deg);
+    }
+}
+
+
+
+
 
 @media(max-width:768px){
     .wlc-logo{
