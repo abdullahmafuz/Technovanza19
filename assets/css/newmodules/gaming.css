@@ -169,6 +169,31 @@ width: 30%;
 }
 
 
+.game{
+   
+    animation: game 5s infinite ease-out;
+    
+}
+
+@keyframes game{
+    from{
+        width: 2%;
+        background: #009FFF;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       
+    }
+    to{
+        width: 100%;
+        background: #40E0D0;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+}
+
+
+
 @media screen and (max-width:786px){
 
     .title{
