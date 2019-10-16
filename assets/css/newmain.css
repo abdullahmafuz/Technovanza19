@@ -334,12 +334,13 @@ padding:0;
     }
 }
 
+    
 .outer-nav a{
-
+   
     text-decoration: none;
     transform-style: preserve-3d;
     transform: translateX(350px) translateZ(-1000px);
-    font-size: 42px;
+    font-size: 52px;
     font-weight: 700;
     color: #fff;
     cursor: pointer;
@@ -347,3 +348,17 @@ padding:0;
 
 
 }
+
+
+@media (max-width: 768px){
+    .outer-nav a{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 600px){
+    .outer-nav a{
+        font-size: 26px;
+    }
+}
+
