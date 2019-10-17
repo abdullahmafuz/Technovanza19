@@ -55,20 +55,19 @@ body{
     padding: 20px;
     
 }
-
-.line{
-    width:30%;
-    height: 2px;
-    background-color: #fff;
-    animation: line 4s infinite;
-    
+.title h2{
+    position: relative;
+    border: 3px solid #fff;
+    width: 40%;
+    animation: line 4s  1 ease-out ;
 }
+
 @keyframes line{
     from{
 width: 2%;
     }
     to{
-width: 30%;
+width: 40%;
     }
 }
 
