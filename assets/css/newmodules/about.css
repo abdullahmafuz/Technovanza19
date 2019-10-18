@@ -1,0 +1,164 @@
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: #000000;
+    
+}
+
+.navbar-brand span{
+    margin: 0 0 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blue{
+    background-color: #0f33ff;
+    color: #fff;
+    margin: 1px solid blue;
+}
+
+.drop:hover{
+    background-color: #0f33ff;
+    color: #fff;
+}
+.drop{
+    text-transform: uppercase;
+}
+.main{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.anim-light img{
+    position: relative;
+    
+
+}
+
+.pic1{
+    top:24%;
+    left:51%;
+    transform: translate(-50%,-50%);
+    animation: lightupin 1s 10;
+    animation-delay: 4s;
+    z-index: 90;
+}
+
+.pic2{
+
+    top:-9.3%;
+    left:52%;
+    transform: translate(-50%,-50%);
+    animation: lightup 2s 10 ;
+    animation-delay: 3s;
+    z-index: 91;
+}
+.pic3{
+
+    top:-36%;
+    left:51.1%;
+    transform: translate(-50%,-50%);
+
+
+    animation: lightup 3s 10 ;
+    animation-delay: 2s;
+    z-index: 92;
+}
+.pic4{ 
+    top:-58%;
+    left:52%;
+    transform: translate(-50%,-50%);
+    animation: lightup 4s 10 ;
+    animation-delay: 0s;
+    z-index: 93;
+   
+}
+
+@keyframes lightup{
+
+    from{
+        
+        opacity: 0;
+        border-radius: 50%;
+       box-shadow: 0 0 20px #fff,0 0 40px #fff;
+
+    }
+    to{
+        opacity: 1;
+        border-radius: 50%;
+    }
+}
+
+@keyframes lightupin{
+
+    from{
+        
+        opacity: 0;
+       
+    }
+    to{
+        opacity: 1;
+       
+    }
+}
+
+
+
+.left .one{
+    line-height: 2;
+    color: #fff;
+    animation: lightup1 2s 1 ;
+   
+}
+
+.left .two{
+    line-height: 2;
+    color: #fff;
+    animation: lightup1 4s 1 ;
+   
+}
+
+.right .one{
+    animation: lightup1 8s 1 ;
+    color: #fff;
+    
+}
+
+.right .two{
+    animation: lightup1 10s 1 ;
+    color: #fff;
+    
+}
+@keyframes lightup1{
+
+    from{
+        
+        opacity: 0;
+        width: 50%;
+    }
+    to{
+        opacity: 1;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:786px){
+
+    .main{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+    .right{
+        position:absolute;
+        top:140%;
+    }
+}
