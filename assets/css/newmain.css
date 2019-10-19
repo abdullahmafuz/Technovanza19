@@ -501,3 +501,11 @@ box-shadow: 0 0 0 20px #0f33ff, 0 0 0 40px #0f33ff, 0 0 0 60px #0f33ff, 0 0 0 80
          z-index: -99;
      }
 }
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:visited{
+    color: #fff;
+}
