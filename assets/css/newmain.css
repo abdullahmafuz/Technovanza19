@@ -467,8 +467,8 @@ box-shadow: 0 0 0 20px #0f33ff, 0 0 0 40px #0f33ff, 0 0 0 60px #0f33ff, 0 0 0 80
 
 .game img{
    border-radius: 20px;
-    height: 100vh;
-    transform: rotate(90deg);
+    height: 70vh;
+    transform: rotate(0deg);
     z-index: -99;
 }
 
@@ -493,11 +493,11 @@ box-shadow: 0 0 0 20px #0f33ff, 0 0 0 40px #0f33ff, 0 0 0 60px #0f33ff, 0 0 0 80
     }
     .game img{
         border-radius: 20px;
-        position: absolute;
+        position: relative;
         top: 0;
         left:0;
-         height: 100vh;
-         transform: rotate(90deg);
+         height: 50vh;
+         
          z-index: -99;
      }
 }
