@@ -472,6 +472,230 @@ box-shadow: 0 0 0 20px #0f33ff, 0 0 0 40px #0f33ff, 0 0 0 60px #0f33ff, 0 0 0 80
     z-index: -99;
 }
 
+
+.header .insta{
+    position: absolute;
+
+   right: 0;
+   top:150px;
+
+}
+ .insta img{
+
+width: 40px;
+height: 40px;
+border-radius: 100px;
+background: #0f33ff;
+
+box-shadow: 0 0 20px #0f33ff ;
+ }
+
+
+
+ .evnet-box {
+    width: 100%;
+    height: 100vh;
+  
+    position: relative;
+}
+.evnet-box a{
+    position: absolute;
+    width: 20%;
+    height: 8%;
+    background-color: #282828;
+    transform:rotate(30deg) translate(-50%,-50%);
+    border-radius: 30px;
+     
+}
+
+.evnet-box a span{
+    line-height: 2;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.evnet-box a:hover{
+    cursor: pointer;
+    background-color: aqua;
+    width: 22%;
+    box-shadow: 0 0 20px aqua;
+    color: black;
+    
+}
+
+.evnet-box a:hover{
+    cursor: pointer;
+    background-color: aqua;
+    width: 22%;
+    box-shadow: 0 0 20px aqua;
+    
+}
+.evnet-box  a:nth-child(1){
+    top:50%;
+        left: 50%;
+}
+
+.evnet-box  a:nth-child(2){
+    top:40%;
+        left: 25%;
+}
+
+.evnet-box  a:nth-child(3){
+    top:30%;
+        left: 30%;
+}
+
+.evnet-box a:nth-child(4){
+    top:50%;
+        left: 20%;
+}
+
+.evnet-box a:nth-child(5){
+    top:60%;
+        left: 45%;
+}
+
+.evnet-box a:nth-child(6){
+    top:70%;
+        left: 40%;
+}
+
+.evnet-box a:nth-child(7){
+    top:80%;
+        left: 35%;
+}
+
+.evnet-box a:nth-child(8){
+    top:90%;
+        left: 30%;
+}
+
+.evnet-box a:nth-child(9){
+    top:60%;
+        left: 15%;
+}
+
+
+.evnet-box a:nth-child(10){
+    top:50%;
+        left: 80%;
+}
+
+
+
+.evnet-box a:nth-child(11){
+    top:60%;
+        left: 75%;
+}
+
+
+
+.evnet-box a:nth-child(12){
+    top:70%;
+        left: 70%;
+}
+
+
+.evnet-box a:nth-child(13){
+    top:80%;
+        left: 65%;
+}
+
+
+.evnet-box a:nth-child(14){
+    top:40%;
+        left: 55%;
+}
+
+.evnet-box a:nth-child(15){
+    top:30%;
+        left: 60%;
+}
+
+.evnet-box a:nth-child(16){
+    top:20%;
+        left: 65%;
+}
+.evnet-box a:nth-child(17){
+    top:70%;
+    left: 10%;
+}
+.evnet-box a:nth-child(18){
+    top:20%;
+        left: 35%;
+}
+.evnet-box a:nth-child(19){
+    top:10%;
+        left: 40%;
+}
+.evnet-box a:nth-child(20){
+    top:10%;
+        left: 70%;
+}
+
+.evnet-box a:nth-child(21){
+    top:90%;
+        left: 60%;
+}
+
+.evnet-box a:nth-child(22){
+    top:40%;
+        left: 85%;
+}
+
+.evnet-box a:nth-child(23){
+    top:30%;
+        left: 90%;
+}
+
+
+.evnet-box a:nth-child(24){
+    top:80%;
+        left: 5%;
+}
+
+.evnet-box a:nth-child(25){
+    top:90%;
+        left: 0%;
+}
+
+.evnet-box a:nth-child(26){
+    top:100%;
+        left: 25%;
+}
+
+
+.evnet-box a:nth-child(27){
+    top:40%;
+        left: -5%;
+}
+
+.evnet-box a:nth-child(28){
+    top:30%;
+        left: 0%;
+}
+.evnet-box a:nth-child(29){
+    top:20%;
+        left: 5%;
+}
+
+
+.evnet-box a:nth-child(30){
+    top:70%;
+        left: 100%;
+}
+
+.evnet-box a:nth-child(31){
+    top:80%;
+        left: 95%;
+}
+.evnet-box a:nth-child(32){
+    top:90%;
+        left: 90%;
+}
+
+
+
 @media (max-width:786px){
     .game .span1{
        
@@ -500,6 +724,20 @@ box-shadow: 0 0 0 20px #0f33ff, 0 0 0 40px #0f33ff, 0 0 0 60px #0f33ff, 0 0 0 80
          
          z-index: -99;
      }
+
+     .evnet-box a{
+        cursor: pointer;
+        background-color: aqua;
+        width: 22%;
+        box-shadow: 0 0 20px aqua;
+        color: black;
+    }
+
+    .evnet-box a span{
+        line-height: 4;
+        font-size: .8em;
+        color: black;
+    }
 }
 @media (max-width:686px){
     .game img{
