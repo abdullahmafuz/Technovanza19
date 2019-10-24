@@ -497,12 +497,13 @@ box-shadow: 0 0 20px #0f33ff ;
     height: 100vh;
   
     position: relative;
+    
 }
 .evnet-box a{
     position: absolute;
     width: 20%;
     height: 8%;
-    background-color: #282828;
+    border: 2px solid #282828;
     transform:rotate(30deg) translate(-50%,-50%);
     border-radius: 30px;
      
@@ -520,7 +521,7 @@ box-shadow: 0 0 20px #0f33ff ;
     width: 22%;
     box-shadow: 0 0 20px aqua;
     color: black;
-    
+    border: none;
 }
 
 .evnet-box a:hover{
@@ -731,6 +732,7 @@ box-shadow: 0 0 20px #0f33ff ;
         width: 22%;
         box-shadow: 0 0 20px aqua;
         color: black;
+        border: none;
     }
 
     .evnet-box a span{
