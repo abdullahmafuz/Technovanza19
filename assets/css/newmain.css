@@ -499,11 +499,20 @@ box-shadow: 0 0 20px #0f33ff ;
     position: relative;
     
 }
+
+.work img{
+    width: 200%;
+    height: 100vh;
+    
+    position: absolute;
+    
+    left: -30%;
+}
 .evnet-box a{
     position: absolute;
     width: 20%;
     height: 8%;
-    border: 2px solid #282828;
+    
     transform:rotate(30deg) translate(-50%,-50%);
     border-radius: 30px;
      
@@ -726,6 +735,7 @@ box-shadow: 0 0 20px #0f33ff ;
          z-index: -99;
      }
 
+     
      .evnet-box a{
         cursor: pointer;
         background-color: aqua;
