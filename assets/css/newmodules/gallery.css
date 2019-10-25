@@ -34,7 +34,7 @@ body{
 
 .carousel-item img{
 
-    height: 85vh;
+    height: 80vh;
 
 }
 
@@ -52,17 +52,47 @@ border-radius: 50%;
     border-radius: 50px;
     padding: 10px;
 }
-
-.gall img{
-  margin: 20px;
-    border: 5px solid blue;
-
+.gall{
+    overflow: hidden;
 }
+.gall img{
+    display: inline-block;
+  
+    
+    width:300px;
+    height: 250px;
+    border: 20px;
+    margin: -1px;
+    box-shadow: 0 0 40px #0f33ff;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 1;
+    transform:  skew(-2deg,-2deg);
+}
+.gall img:hover{
+    display: inline-block;
+  
+    
+    transform:  skew(0,0) scale(1.1);
+    border: 20px;
+    margin: -1px;
+    box-shadow: 0 0 40px #0f33ff;
+    opacity: 1;
+    z-index: 9;
+    transition: .2s ease-out;
+}
+
+
 
 @media screen and (max-width:786px){
     .carousel-inner{
         border-radius: 10px;
         padding: 1px;
+    }
+
+    .gall img{
+
+opacity: 1;
     }
     
 }

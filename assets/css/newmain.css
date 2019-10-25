@@ -326,11 +326,15 @@ padding:0;
 
 
 
-@media(max-width:768px){
+@media(max-width:900px){
     .wlc-logo{
         top:-35%;
         left: 50%;
         width: 60%;
+    }
+
+    .intro img{
+        width: 35%;
     }
 }
 
@@ -501,12 +505,13 @@ box-shadow: 0 0 20px #0f33ff ;
 }
 
 .work img{
-    width: 200%;
+    width: 145%;
     height: 100vh;
     
     position: absolute;
     
-    left: -30%;
+    left: -20%;
+    opacity: .4;
 }
 .evnet-box a{
     position: absolute;
@@ -705,8 +710,80 @@ box-shadow: 0 0 20px #0f33ff ;
 }
 
 
+.hire img{
+    display: inline-block;
+  
+    
+    width:300px;
+    height: 250px;
+    border: 20px;
+    margin: -1px;
+    box-shadow: 0 0 40px #0f33ff;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 1;
+    transform:  skew(-2deg,-2deg);
+    margin: 10px;
+}
+.hire img:hover{
+    display: inline-block;
+  
+    
+    transform:  skew(0,0) scale(1.1);
+    border: 20px;
+    margin: -1px;
+    box-shadow: 0 0 40px #0f33ff;
+    opacity: 1;
+    z-index: 9;
+    transition: .2s ease-out;
+}
+.hire a{
+    margin-top:15px ;
+    width: 120px;
+    height: 25px;
+    border-left: 5px;
+    padding: 5px;
+    
+    
+}
+.hire a svg{
+    width: 20px;
+    height: 10px;
+    fill: #fff;
+}
+.hire a:hover {
+   
+    background: #0f33ff;
+    transition: .3s ease-out;
+    border-radius: 5px;
+    
+}
+.parg{
+    margin-top: 10%;
+    width: 50%;
+    
+}
+.parg p{
+
+font-size: 1.7em;
+}
 
 @media (max-width:786px){
+    
+    .hire img{
+       
+      
+        
+        width:200px;
+        height: 150px;
+        
+        transform:  skew(-2deg,-2deg);
+        margin: 2px;
+    }
+    .hire img{
+
+        opacity: 1;
+            }
     .game .span1{
        
         top:39%;
@@ -750,8 +827,13 @@ box-shadow: 0 0 20px #0f33ff ;
         font-size: .6em;
         color: black;
     }
+    
 }
 @media (max-width:686px){
+    .parg p{
+
+        font-size: 1.2em;
+        }
     .game img{
         border-radius: 20px;
         position: relative;
@@ -761,6 +843,7 @@ box-shadow: 0 0 20px #0f33ff ;
          
          z-index: -99;
      }
+     
 
 }
 a{
