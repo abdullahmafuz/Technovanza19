@@ -768,6 +768,18 @@ box-shadow: 0 0 20px #0f33ff ;
 font-size: 1.7em;
 }
 
+.hire p{
+    font-size: 1.5em;
+}
+.particles{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: .3;
+}
+
+
+
 @media (max-width:786px){
     
     .hire img{
@@ -843,7 +855,9 @@ font-size: 1.7em;
          
          z-index: -99;
      }
-     
+     .hire p{
+        font-size: 1.2em;
+    }
 
 }
 a{
