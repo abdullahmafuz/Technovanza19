@@ -23,7 +23,7 @@
   <p class="device-notification--message">IMAGINE. INNOVATE. CREATE.</p>
 </div>
 
-<div class="anim">
+<div class="anim" id="anim">
   <ul class="up">
       <li>T</li>
       <li>E</li>
@@ -360,5 +360,18 @@
 <script src="assets/js/functions-min.js"></script>
 <script src="./assets/js/particlesjs/particles.min.js"></script>
 <script src="assets/js/particlesjs/app.js"></script>
+<script>
+var firsttime=window.localStorage.getItem("firsttime");
+var animtion=document.getElementById('anim')
+if(firsttime == null){
+
+window.localStorage.setItem("firsttime",true);
+}
+else{
+  console.log(firsttime);
+animtion.style.display='none';
+}
+console.log(firsttime);
+</script>
 </body>
 </html>
