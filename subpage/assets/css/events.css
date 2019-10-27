@@ -76,6 +76,12 @@ width: 40%;
     height: 205px;
 }
 
+.pdf img{
+    display: block;
+    width: 70px;
+    height: auto;
+}
+
 @media screen and (max-width:786px){
     .title h2{
         position: relative;
