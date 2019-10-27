@@ -11,22 +11,10 @@
   <meta name="author" content="Abdullah Mafuz">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/newmain.css">
-  
+ 
 </head>
 <body>
-  <script>
-    var firsttime=window.localStorage.getItem("firsttime");
-    var animtion=document.getElementById('anim')
-    if(firsttime == null){
-    
-    window.localStorage.setItem("firsttime",true);
-    }
-    else{
-      console.log(firsttime);
-    animtion.style.display='none';
-    }
-    console.log(firsttime);
-    </script>
+ 
 <!-- notification for small viewports and landscape oriented smartphones -->
 <div class="device-notification">
   <a class="device-notification--logo" href="#0">
@@ -68,6 +56,19 @@
   
    </ul>
 </div>
+
+<script>
+  var firsttime=window.localStorage.getItem("firsttime");
+  var animtion=document.getElementById('anim')
+  if(firsttime == null){
+  
+  window.localStorage.setItem("firsttime",true);
+  }
+  else{
+  animtion.style.display='none';
+  }
+  
+  </script>
 
 <div class="perspective effect-rotate-left">
 
