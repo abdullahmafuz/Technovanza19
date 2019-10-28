@@ -65,11 +65,11 @@
 </div>
 
 <script>
-  var firsttime=window.localStorage.getItem("firsttime");
+  var firsttime=window.localStorage.getItem("visited");
   var animtion=document.getElementById('anim')
   if(firsttime == null){
   
-  window.localStorage.setItem("firsttime",false);
+  window.localStorage.setItem("visited",true);
   }
   else{
   animtion.style.display='none';
