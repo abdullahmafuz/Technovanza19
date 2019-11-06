@@ -81,6 +81,10 @@ width: 40%;
     width: 70px;
     height: auto;
 }
+.download img{
+    width: 200px;
+    height: 58px;
+}
 
 @media screen and (max-width:786px){
     .title h2{
