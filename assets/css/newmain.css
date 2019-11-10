@@ -868,3 +868,8 @@ a{
 a:visited{
     color: #fff;
 }
+
+.ab-img{
+    width: 40%;
+    height: 60vh;
+}
